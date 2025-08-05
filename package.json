@@ -1,0 +1,21 @@
+{
+  "name": "weather-lab-scss",
+  "version": "1.0.0",
+  "description": "SCSS styling lab for the Weather App - learn SCSS vs CSS differences",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm install & node test-weather-lab.js",
+    "sass": "sass style.scss style.css",
+    "sass:watch": "sass --watch style.scss style.css",
+    "sass:build": "sass style.scss style.css --style compressed"
+  },
+  "keywords": ["weather", "html", "scss", "sass", "css-preprocessor", "styling"],
+  "author": "Your Name or Onja",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
